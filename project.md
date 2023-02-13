@@ -120,6 +120,9 @@ BalancerMember http://Web2:80 loadfactor=5 timeout=1
 
 You can try to curl your Web Servers from LB locally 
 `curl http://Web1` 
+
 ![site web1 confirmed](./Images/curl-web1.png)
+
 `curl http://Web2`
+
 ![site web2 confirmed](./Images/curl-web2.png)
